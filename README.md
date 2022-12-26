@@ -23,8 +23,8 @@ Best phone debouncer and checker for free !
 <p align="center"><strong><i>In order for the program to work, you have to install these ressources:</i></strong</p>
 
 <br><br>
-* <a href="https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe">Python3</a>
-* `git clone https://github.com/DeusWeb/Phone-debounce-and-checker/`
+* <a href="https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe">Python3</a>
+* `git clone https://github.com/PwnHash/Phone-debounce-and-checker/`
 * `pip install -U -r requirements.txt`
 <br><br>
 

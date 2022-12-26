@@ -36,7 +36,7 @@ def main():
         pays = geocoder.description_for_number(number,'fr')
         opera = carrier.name_for_number(number,'fr')
         if valid == True and opera != "":
-            print(Center.XCenter(f"                                                              {Fore.LIGHTGREEN_EX}>{Fore.LIGHTWHITE_EX} Numero{Fore.LIGHTCYAN_EX} :{Fore.LIGHTMAGENTA_EX} {num}{Fore.LIGHTWHITE_EX} |{Fore.LIGHTBLACK_EX} Country{Fore.LIGHTCYAN_EX} :{Fore.LIGHTMAGENTA_EX} {pays}{Fore.LIGHTWHITE_EX} |{Fore.LIGHTBLACK_EX} Operator{Fore.LIGHTCYAN_EX} :{Fore.LIGHTMAGENTA_EX} {opera}"))
+            print(f"                                                              {Fore.LIGHTGREEN_EX}>{Fore.LIGHTWHITE_EX} Numero{Fore.LIGHTCYAN_EX} :{Fore.LIGHTMAGENTA_EX} {num}{Fore.LIGHTWHITE_EX} |{Fore.LIGHTBLACK_EX} Country{Fore.LIGHTCYAN_EX} :{Fore.LIGHTMAGENTA_EX} {pays}{Fore.LIGHTWHITE_EX} |{Fore.LIGHTBLACK_EX} Operator{Fore.LIGHTCYAN_EX} :{Fore.LIGHTMAGENTA_EX} {opera}")
             with open("phoneonly.txt", "a") as save:
                 save.write(f"{num} \n")
             with open("phone_and_informations.txt", "a") as save:
